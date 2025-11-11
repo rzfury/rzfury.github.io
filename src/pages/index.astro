@@ -10,17 +10,23 @@ import '../base.css';
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
+		<style>
+			@font-face {
+				font-family: Bitter;
+				font-weight: 200;
+				font-display: swap;
+				src: url(/bitter-extralight.ttf);
+			}
+		</style>
 		<title>rzfury.dev</title>
 	</head>
 	<body>
 
-		<main class="flex flex-col items-center justify-center px-4">
-			<h1 class="text-zinc-300 text-4xl tracking-widest mb-2 text-center">
-				<span class="whitespace-nowrap">you've arrived</span>
-			</h1>
-			<span class="italic text-zinc-400 tracking-wide text-center">You probably looking for something in my website, but I didn&lsquo;t put anything in this homepage.</span>
+		<main class="flex flex-col py-4 px-4">
+			<div class="text-lg italic text-zinc-400 tracking-wide text-center">all dream lies here</div>
 		</main>
+
+		<!-- THERE'S SUPPOSED TO BE A CONTENT HERE BUT GOT NO TIME 😭 -->
 
 	</body>
 </html>
